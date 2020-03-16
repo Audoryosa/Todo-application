@@ -1,0 +1,15 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.audruskumpis.todolist.UpdateDateDialog">
+
+    <content>
+        <GridPane vgap="10" hgap="10">
+            <Label text="Pick new date" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+            <DatePicker fx:id="updateDatePicker" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+        </GridPane>
+    </content>
+
+</DialogPane>

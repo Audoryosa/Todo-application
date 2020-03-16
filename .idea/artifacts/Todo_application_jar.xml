@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Todo application:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Todo_application_jar</output-path>
+    <root id="archive" name="Todo application.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/man2/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="Todo application" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/jlfgr-1_0/jlfgr.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
